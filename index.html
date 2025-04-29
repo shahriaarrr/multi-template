@@ -57,13 +57,68 @@
           </nav>
     </section>
 
-    <section id="imageSlider">
-
+    <section id="imageSlider" class="carousel slide h-100" data-bs-ride="carousel" data-bs-interval="5000">
+      
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#imageSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#imageSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#imageSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+    
+      <div class="carousel-inner h-100">
+        <div class="carousel-item active h-100">
+          <img
+            src="https://media.istockphoto.com/id/1481370371/photo/portrait-of-enthusiastic-hispanic-young-woman-working-on-computer-in-a-modern-bright-office.jpg?s=612x612&w=0&k=20&c=8kNce9Ruc9F2KXvnwf0stWQXCwwQTBCrW8efrqhUIa4="
+            class="d-block w-100 h-100" style="object-fit: cover;"
+            alt="Slide 1" />
+          <div class="carousel-caption d-none d-md-block text-center">
+            <h1 class="fw-bold">Welcome to Multi</h1>
+            <p>This is descriptive text for slide 1.</p>
+            <a href="#" class="btn btn-danger">Get Started</a>
+          </div>
+        </div>
+    
+        <div class="carousel-item h-100">
+          <img
+            src="https://t3.ftcdn.net/jpg/04/53/84/10/360_F_453841080_voPpmOsiS1WM05u7Brb5GB7jcJjMl6vK.jpg"
+            class="d-block w-100 h-100" style="object-fit: cover;"
+            alt="Slide 2" />
+          <div class="carousel-caption d-none d-md-block text-center">
+            <h1 class="fw-bold">Another Heading</h1>
+            <p>This is descriptive text for slide 2.</p>
+            <a href="#" class="btn btn-danger">Get Started</a>
+          </div>
+        </div>
+    
+        <div class="carousel-item h-100">
+          <img
+            src="https://www.usatoday.com/gcdn/media/2021/06/29/USATODAY/usatsports/MotleyFool-TMOT-5a19ba8d-fa957530.jpg"
+            class="d-block w-100 h-100" style="object-fit: cover;"
+            alt="Slide 3" />
+          <div class="carousel-caption d-none d-md-block text-center">
+            <h1 class="fw-bold">Third Slide Title</h1>
+            <p>This is descriptive text for slide 3.</p>
+            <a href="#" class="btn btn-danger">Get Started</a>
+          </div>
+        </div>
+      </div>
+    
+      <button class="carousel-control-prev" type="button" data-bs-target="#imageSlider" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#imageSlider" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </section>
+    
 
     <section id="about">
 
     </section>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
