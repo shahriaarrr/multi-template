@@ -62,4 +62,45 @@
 #imageSlider .carousel-control-next {
     z-index: 3;
 }
+
+
+.about .section-header p {
+   font-size: 0.875rem;
+   letter-spacing: 1px;
+}
+.about .section-header h2 {
+   font-size: 2.5rem;
+}
+.about p.text-muted {
+    line-height: 1.8;
+}
+.about ul li i {
+    font-size: 1.2rem;
+    color: #ff4d4d;
+    line-height: 1;
+}
+.about .btn {
+    padding: 0.5rem 1.5rem;
+}
+
+.about .card {
+    border: none;
+}
+.about .card .icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+.about .card .icon i {
+    font-size: 2rem;
+    color: #ff4d4d;
+}
+.about .card-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
   
