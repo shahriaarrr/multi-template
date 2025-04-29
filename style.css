@@ -103,4 +103,84 @@
     font-size: 2rem;
     margin-bottom: 0.5rem;
 }
+
+
+#services .section-header p {
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    color: #ff4d4d;
+}
+#services .section-header h2 {
+    font-size: 2.5rem;
+    color: #0d1a35;
+}
+
+.service-card {
+    background-color: #fff;
+    border: 1px solid #eee;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+
+    aspect-ratio: 1 / 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.service-card .icon {
+    width: 60px;
+    height: 60px;
+    background-color: #ff4d4d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-bottom: 1rem;
+}
+
+.service-card .icon i {
+    font-size: 1.75rem;
+    color: #fff;
+    transition: color 0.3s;
+    line-height: 1;
+}
+
+.service-card h5 {
+    margin: 0.5rem 0;
+    color: #0d1a35;
+    transition: color 0.3s;
+}
+
+.service-card p {
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+    transition: color 0.3s;
+}
+
+.service-card:hover {
+    background-color: #ff4d4d;
+    color: #fff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.service-card:hover .icon {
+    background-color: #ffe3e0;
+    transform: scale(1.1);
+}
+
+.service-card:hover .icon i {
+    color: #ff4d4d;
+}
+
+.service-card:hover h5,
+.service-card:hover p {
+    color: #fff;
+}
+  
   
